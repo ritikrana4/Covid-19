@@ -1,5 +1,9 @@
 import React from 'react';
 
+import img_1 from '../assets/do-1.png'; 
+import img_2 from '../assets/do-2.png'; 
+import img_3 from '../assets/do-3.png'; 
+import error from '../assets/error.png'; 
 import '../styles/learn.style.css'
 
 const Learn =()=>{
@@ -14,7 +18,7 @@ const Learn =()=>{
                 <div className='section-2'>
                     <div className='title'>Do's</div>
                     <div className='grp-out'>
-                        <div><img src='./assets/do-1.png'/></div>
+                        <div><img src={img_1}/></div>
                         <div className='grp-in'>
                             <div className='grp-title'>Wear Masks</div>
                             <div className='grp-para'>Helps you in filtering out very <br/> small 
@@ -23,7 +27,7 @@ const Learn =()=>{
                         </div>
                     </div>
                     <div className='grp-out'>
-                        <div><img src='./assets/do-2.png'/></div>
+                        <div><img src={img_2}/></div>
                         <div className='grp-in'>
                             <div className='grp-title'>Wash your Hands Often</div>
                             <div className='grp-para'>Washing your hands very often <br/>will 
@@ -33,7 +37,7 @@ const Learn =()=>{
                         </div>
                     </div>
                     <div className='grp-out'>
-                        <div><img src='./assets/do-3.png'/></div>
+                        <div><img src={img_3}/></div>
                         <div className='grp-in'>
                             <div className='grp-title'>Maintain Social Distancing</div>
                             <div className='grp-para'>Maintaining social distancing <br/>can 
@@ -51,7 +55,7 @@ const Learn =()=>{
                             <div className='grp-para'>Don’t forward anything that is
                             <br/>not coming from official sources.</div>
                         </div>
-                        <div className='image'><img src='./assets/do-1.png'/></div>
+                        <div className='image'><img src={img_1}/></div>
 
                     </div>
                     <div className='grp-out'>
@@ -62,7 +66,7 @@ const Learn =()=>{
                                                 <br/>Precautions will.
                              </div>
                         </div>
-                        <div className='image'><img src='./assets/do-2.png'/></div>
+                        <div className='image'><img src={img_2}/></div>
                     </div>
                     <div className='grp-out'>
                         
@@ -71,7 +75,7 @@ const Learn =()=>{
                             <div className='grp-para'>It’s that once in a lifetime chance<br/>
                                 that you can saved the world <br/>while sitting on your couch.<br/> Do that.</div>
                         </div>
-                        <div className='image'><img src='./assets/do-3.png'/></div>
+                        <div className='image'><img src={img_3}/></div>
 
                     </div>
                 </div>

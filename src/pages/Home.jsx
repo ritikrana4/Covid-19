@@ -1,4 +1,5 @@
 import React from 'react';
+import indiaLogo from '../assets/india-logo.png';
 
 import '../styles/home.style.css'
 import Loader from  '../component/Loader'
@@ -48,7 +49,7 @@ class Home extends React.Component{
                 
                 <div className='home-header'>
                     <div className='home-header-title'>COVID’19 Stats</div>
-                    <div className='home-header-img'><img src='./assets/india-logo.png'/></div>
+                    <div className='home-header-img'><img src={indiaLogo}/></div>
                 </div>
                 
                 <div className='home-dashboard-1'>
