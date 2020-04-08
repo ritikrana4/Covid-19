@@ -13,7 +13,7 @@ const Items =({data}) => {
                 <h5>{data.confirmedCasesIndian}</h5>
            </div>
             <div > 
-                <h3>Active</h3>
+                <h3 className='active'>Active</h3>
                 <h5 style={{color:'#F2994A'}}>{data.confirmedCasesIndian-(data.discharged+data.deaths)}</h5>
             </div>
         </div>

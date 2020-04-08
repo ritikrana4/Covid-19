@@ -23,7 +23,7 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 15px;
-    
+    text-transform: capitalize;
   }
   .navbar a.active {
     color: #00BFFF;
