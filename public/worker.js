@@ -1,7 +1,10 @@
 let CACHE_NAME = 'Covid-19';
 let urlsToCache = [
   '/',
-  '/completed'
+  '/home',
+  '/info',
+  'learn',
+  'testcenters'
 ];
 
 // Install a service worker

@@ -43,10 +43,11 @@ class App extends React.Component {
        <Router>
        <Navbar/>
        <Switch>
-            <Route exact path='/home' component={Home}/>
+            <Route path='/home' component={Home}/>
             <Route path='/info' component={Info} />
             <Route path='/learn' component={Learn} />
             <Route path='/testcenters' component={TestCenters} />
+            <Route path="*"> <Home /> </Route>
        </Switch>
        </Router>
        
