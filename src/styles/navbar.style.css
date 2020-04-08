@@ -28,4 +28,18 @@
   .navbar a.active {
     color: #00BFFF;
   }
-  
+  .grp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grp h6{
+    margin:0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 15px;
+    text-transform: capitalize;
+  }
