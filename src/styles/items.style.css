@@ -1,0 +1,44 @@
+.home-dashboard-2{
+    padding-bottom: 60px;
+    background-color: #E9F8FD;
+    margin-top: 18px;
+    border-radius: 25px 25px 0px 0px;
+
+}
+.home-dashboard-2-heading{
+    margin-left: 20px;
+    padding-top: 17px;
+}
+
+
+.item{
+    background: #FFFFFF;
+    margin:20px;
+    margin-bottom: 25px;
+    border-radius: 14px;
+}
+.item-heading{
+    margin-left: 23px;
+    padding-top: 15px;
+}
+.item-data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left:23px;
+    margin-right: 67px;
+}
+h5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1px;
+}
+h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 10px;
+    }
