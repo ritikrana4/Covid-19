@@ -37,8 +37,8 @@ class Info extends React.Component {
          }
 
         return (
-         <div> 
-              <div className='section-1'>
+         <div style={{marginLeft:20, marginRight:20}}> 
+              <div className='info-head'>
                     <div className='header-title'>Official Tweets</div>
                     <div className='header-para'>Last 20 Tweets</div>
               </div>            

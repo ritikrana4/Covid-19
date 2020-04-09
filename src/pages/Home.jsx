@@ -5,6 +5,7 @@ import '../styles/home.style.css'
 import Loader from  '../component/Loader'
 import Items from '../component/Items';
 import NetworkError from '../component/NetworkError';
+import { v4 as uuidv4 } from 'uuid';
 
 const API = 'https://api.rootnet.in/covid19-in/stats/latest';
 
@@ -80,7 +81,7 @@ class Home extends React.Component{
                         <h2 className='home-dashboard-2-heading'>State Wise</h2>
                        {regional.map((item)=>{
                              return (
-                                 <Items data={item}/>
+                                 <Items key={uuidv4()} data={item}/>
                              )   
                        })}
                 </div>

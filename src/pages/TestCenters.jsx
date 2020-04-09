@@ -66,7 +66,7 @@ class TestCenters extends React.Component{
 
     handleChange = selectedOption => {
         this.setState({ selectedOption:selectedOption.value });  
-        console.log(selectedOption.value,"slct")     
+           
       };
    
 
@@ -75,7 +75,7 @@ class TestCenters extends React.Component{
         
         const { selectedOption,data,isLoading,error } = this.state; 
         const filteredData = data.filter(elm=>elm.state.toLowerCase().includes(selectedOption.toLowerCase()));
-          
+          console.log(data);
         if (error) {
             return <NetworkError/>
         }

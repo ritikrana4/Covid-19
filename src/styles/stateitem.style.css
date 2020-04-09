@@ -3,7 +3,7 @@
     background-color: #E9F8FD;
     margin-top: 18px;
      border-radius: 14px;
-     height: 80px;
+     height: 85px;
 }
 .stateItem-head{
     
@@ -13,18 +13,37 @@
     font-size: 14px;
     line-height: 21px;
     text-transform: capitalize;
-    width: 300px;
+    width: 250px;
     padding-left:11px;
     padding-top: 12px;
 }
 .group-out{
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     
 }
 .group-in{
     display: flex;
     flex-direction: row;
     padding-bottom: 15px;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 20px;
 }
 
+.grp-in-item-1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 10px;
+    color: #727272;
+}
+.grp-in-item-2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 10px;
+color: #727272;
+}
