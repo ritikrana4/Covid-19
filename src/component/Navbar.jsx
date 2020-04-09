@@ -13,10 +13,10 @@ const Navbar = () => {
             <div className='navbar'>
                 <div className='navbar-box'>
                     <NavLink to='home'>
-                         <div className='grp'><img src={home}/><h6>Home</h6></div></NavLink>
-                     <div ><NavLink to='info'><div className='grp'><img src={info}/><h6>Info</h6></div></NavLink></div>
-                     <div ><NavLink to='learn'><div className='grp'><img src={learn}/><h6>Learn</h6></div></NavLink></div>
-                     <div ><NavLink to='testcenters'><div className='grp'><img src={test}/><h6>TestCenters</h6></div></NavLink></div>
+                         <div className='grp'><img alt='home' src={home}/><h6>Home</h6></div></NavLink>
+                     <div ><NavLink to='info'><div className='grp'><img alt='info' src={info}/><h6>Info</h6></div></NavLink></div>
+                     <div ><NavLink to='learn'><div className='grp'><img alt='learn' src={learn}/><h6>Learn</h6></div></NavLink></div>
+                     <div ><NavLink to='testcenters'><div className='grp'><img alt='testcenters' src={test}/><h6>TestCenters</h6></div></NavLink></div>
                 </div>
              
             </div>

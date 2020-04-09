@@ -49,7 +49,7 @@ class Home extends React.Component{
                 
                 <div className='home-header'>
                     <div className='home-header-title'>COVID’19 Stats</div>
-                    <div className='home-header-img'><img src={indiaLogo}/></div>
+                    <div className='home-header-img'><img alt='India' src={indiaLogo}/></div>
                 </div>
                 
                 <div className='home-dashboard-1'>
