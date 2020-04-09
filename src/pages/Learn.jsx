@@ -3,6 +3,9 @@ import React from 'react';
 import img_1 from '../assets/do-1.png'; 
 import img_2 from '../assets/do-2.png'; 
 import img_3 from '../assets/do-3.png'; 
+import img_4 from '../assets/do-4.png'; 
+import img_5 from '../assets/do-5.png'; 
+import img_6 from '../assets/do-6.png'; 
 import error from '../assets/error.png'; 
 import '../styles/learn.style.css'
 
@@ -55,7 +58,7 @@ const Learn =()=>{
                             <div className='grp-para'>Don’t forward anything that is
                             <br/>not coming from official sources.</div>
                         </div>
-                        <div className='image'><img alt='img' src={img_1}/></div>
+                        <div className='image'><img alt='img' src={img_4}/></div>
 
                     </div>
                     <div className='grp-out'>
@@ -66,7 +69,7 @@ const Learn =()=>{
                                                 <br/>Precautions will.
                              </div>
                         </div>
-                        <div className='image'><img alt='img' src={img_2}/></div>
+                        <div className='image'><img alt='img' src={img_5}/></div>
                     </div>
                     <div className='grp-out'>
                         
@@ -75,7 +78,7 @@ const Learn =()=>{
                             <div className='grp-para'>It’s that once in a lifetime chance<br/>
                                 that you can saved the world <br/>while sitting on your couch.<br/> Do that.</div>
                         </div>
-                        <div className='image'><img alt='img' src={img_3}/></div>
+                        <div className='image'><img alt='img' src={img_6}/></div>
 
                     </div>
                 </div>
