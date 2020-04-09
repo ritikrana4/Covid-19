@@ -33,7 +33,7 @@ const options = [
     {value: 'Tamil Nadu', label: 'Tamil Nadu'},
     {value: 'Telangana', label: 'Telangana'},
     {value: 'Tripura', label: 'Tripura'},
-    {value: 'Uttarakhand', label: 'Kerala'},
+    {value: 'Uttarakhand', label: 'Uttarakhand'},
     {value: 'Uttar Pradesh', label: 'Uttar Pradesh'},
     {value: 'West Bengal', label: 'West Bengal'}
     
