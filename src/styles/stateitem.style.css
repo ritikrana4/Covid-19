@@ -1,0 +1,30 @@
+.stateItem{
+    padding-bottom: 60px;
+    background-color: #E9F8FD;
+    margin-top: 18px;
+     border-radius: 14px;
+     height: 80px;
+}
+.stateItem-head{
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    width: 300px;
+    padding-left:11px;
+    padding-top: 12px;
+}
+.group-out{
+    padding-top: 20px;
+    
+}
+.group-in{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+    justify-content: space-around;
+}
+

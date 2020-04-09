@@ -5,7 +5,7 @@ const NetworkError = () => {
     return(
             <div>
             <div className='network'>          
-                <img  alt='error' src='./assets/error.png'/>
+               
                 <h1>No Internet Connection</h1>
             </div>
             </div>

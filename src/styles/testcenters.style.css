@@ -1,0 +1,29 @@
+.test-head{
+    display: flex;
+    flex-direction: column;    
+    margin-bottom: 22px;
+    margin-top: 20px;
+}
+.header-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    }
+.header-para{
+    text-transform: capitalize; 
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+.selected-city{
+    padding-top:17px ;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}

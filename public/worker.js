@@ -3,8 +3,12 @@ let urlsToCache = [
   '/',
   '/home',
   '/info',
-  'learn',
-  'testcenters'
+  '/learn',
+  '/index.html',
+  "/main.css",
+  "/main.js",
+  "/static/media/error.png"
+
 ];
 
 // Install a service worker
