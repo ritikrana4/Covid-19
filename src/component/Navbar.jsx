@@ -19,7 +19,7 @@ const Navbar = () => {
                      <div><NavLink activeStyle={{ color: "#00BFFF"}} to='home'><div className='grp'><img className="image" alt='home' src={home}/><h6>Home</h6></div></NavLink></div>
                      <div ><NavLink  activeStyle={{ color: "#00BFFF"}} to='info'><div className='grp'><img alt='info' src={info}/><h6>Info</h6></div></NavLink></div>
                      <div ><NavLink  activeStyle={{ color: "#00BFFF"}} to='learn'><div className='grp'><img alt='learn' src={learn}/><h6>Learn</h6></div></NavLink></div>
-                     <div ><NavLink  activeStyle={{ color: "#00BFFF"}} to='testcenters'><div className='grp'><img alt='testcenters' src={test}/><h6>TestCenters</h6></div></NavLink></div>
+                     <div ><NavLink  activeStyle={{ color: "#00BFFF"}} to='testcenters'><div className='grp'><img alt='testcenters' src={test}/><h6>Test Centers</h6></div></NavLink></div>
                 </div>
             
             </div>
