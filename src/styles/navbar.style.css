@@ -25,9 +25,7 @@
     line-height: 15px;
     text-transform: capitalize;
   }
-  .navbar a.active {
-    color: #00BFFF;
-  }
+ 
   .grp{
     display: flex;
     flex-direction: column;
@@ -43,3 +41,13 @@
     line-height: 15px;
     text-transform: capitalize;
   }
+  .image{
+    background: url("../assets/home\ \(2\).png");
+  }
+  .image :active{
+    background: url("../assets/home (1).png");
+  }
+  
+
+ 
+  
