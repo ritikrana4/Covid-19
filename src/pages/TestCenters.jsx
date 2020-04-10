@@ -94,11 +94,11 @@ class TestCenters extends React.Component{
                             onChange={this.handleChange}
                             options={options}
                             isSearchable={true} 
-                            placeholder={"Search state..."}
+                            placeholder={selectedOption}
                          
                          />
                 </div>
-                <div className='selected-city'>{selectedOption}</div>
+               
                 <StateList  data={filteredData}/>
                 
                 
