@@ -40,9 +40,9 @@ class Info extends React.Component {
          <div style={{marginLeft:20, marginRight:20}}> 
               <div className='info-head'>
                     <div className='header-title'>Official Tweets</div>
-                    <div className='header-para'>Last 20 Tweets</div>
+                    <div className='header-para'>Last 10 Tweets</div>
               </div>            
-            <div>    
+            <div className='info-select'>    
                         <Select
                             value={selectedOption}
                             onChange={this.handleChange}
