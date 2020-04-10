@@ -75,7 +75,7 @@ class TestCenters extends React.Component{
         
         const { selectedOption,data,isLoading,error } = this.state; 
         const filteredData = data.filter(elm=>elm.state.toLowerCase().includes(selectedOption.toLowerCase()));
-          console.log(data);
+        
         if (error) {
             return <NetworkError/>
         }

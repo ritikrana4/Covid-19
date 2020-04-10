@@ -1,6 +1,6 @@
 import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
-import { Offline, Online } from "react-detect-offline";
+
 
 import Home from './pages/Home';
 import Info from './pages/Info';

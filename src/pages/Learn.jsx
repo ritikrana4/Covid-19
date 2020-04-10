@@ -6,7 +6,7 @@ import img_3 from '../assets/do-3.png';
 import img_4 from '../assets/do-4.png'; 
 import img_5 from '../assets/do-5.png'; 
 import img_6 from '../assets/do-6.png'; 
-import error from '../assets/error.png'; 
+
 import '../styles/learn.style.css'
 
 const Learn =()=>{

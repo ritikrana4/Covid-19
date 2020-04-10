@@ -37,7 +37,6 @@ class Home extends React.Component{
     render(){
         
         const {summary,regional,isLoading,error} =this.state;       
-        console.log(regional);
         regional.sort((item1,item2)=>(item2.confirmedCasesIndian-item1.confirmedCasesIndian));
         
         if (error) {
