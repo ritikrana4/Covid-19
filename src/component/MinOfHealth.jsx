@@ -9,8 +9,6 @@ const MinOfHealth =({value})=>{
             height: "100%",           
           
           }}
-         
-          
           noHeader="true"
           noFooter="true" 
            url={`https://twitter.com/${value}`}  />

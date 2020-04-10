@@ -56,29 +56,29 @@ class Home extends React.Component{
                 <div className='home-dashboard-1'>
 
                         <div > 
-                            <h3>Confirmed Cases</h3>
-                            <h1>{summary.confirmedCasesIndian}</h1>
+                            <div className="home-dash-title">Confirmed Cases</div>
+                            <div className='home-dash-digit'>{summary.confirmedCasesIndian}</div>
                         </div>
                         <div > 
-                            <h3>Active</h3>
-                            <h1>{summary.confirmedCasesIndian-(summary.discharged+summary.deaths)}</h1>
+                            <div  className="home-dash-title">Active</div>
+                            <div className='home-dash-digit'>{summary.confirmedCasesIndian-(summary.discharged+summary.deaths)}</div>
+                        </div>
+                        <div> 
+                            <div  className="home-dash-title">Recovered</div>
+                            <div className='home-dash-digit' >{summary.discharged}</div>
                         </div>
                  </div>     
 
-                <div className='home-dashboard-1'>
-                      <div> 
-                            <h3>Recovered</h3>
-                            <h1 style={{color:'#219653'}}>{summary.discharged}</h1>
-                        </div>
+                <div className='home-dashboard-2'>
                         <div> 
-                            <h3>Deaths</h3>
-                            <h1 style={{color:'#EB5757'}}>{summary.deaths}</h1>
+                            <div  className="home-dash-title">Total Deaths</div>
+                            <div className='home-dash-digit' style={{color:'#EB5757'}}>{summary.deaths}</div>
                         </div>
                
-                      </div>
+                      </div>        
 
-                <div className='home-dashboard-2'>
-                        <h2 className='home-dashboard-2-heading'>State Wise</h2>
+                <div className='home-dashboard-3'>
+                        <div className='home-dashboard-3-title'>Region Wise</div>
                        {regional.map((item)=>{
                              return (
                                  <Items key={uuidv4()} data={item}/>

@@ -1,5 +1,4 @@
 
-
 .home-header{
     display: flex;
     justify-content: space-between;
@@ -18,28 +17,52 @@ line-height: 24px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left:50px;
-    margin-right: 50px;
+    margin-left:20px;
+    margin-right: 54px;
+    margin-bottom: 26px;
+}
+.home-dashboard-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left:20px;
+    margin-bottom: 18px;
 }
 
-h3{
+.home-dash-title{
 font-family: Poppins;
 font-style: normal;
 font-weight: normal;
-font-size: 15px;
-line-height: 10px;
+font-size: 11px;
+line-height: 16px;
+
 }
-h1{
+.home-dash-digit{
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
-line-height: 25px;
+line-height: 30px;
 }
-h2{
+.home-dashboard-3{
+    padding-bottom: 60px;
+    background-color: #E9F8FD;
+    margin-top: 18px;
+    border-radius: 25px 25px 0px 0px;
+
+}
+.home-dashboard-3-title{
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
+font-size: 14px;
 line-height: 21px;
+margin-left: 20px;
+padding-top: 17px;
+margin-bottom: 18px;
+}
+
+.home-header-img img{
+    width: 30px;
+    height: 20px;
 }
