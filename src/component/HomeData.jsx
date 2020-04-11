@@ -75,7 +75,7 @@ class HomeData extends React.Component{
                       </div>        
 
                 <div className='home-dashboard-3'>
-                        <div className='home-dashboard-3-title'>Region Wise</div>
+                        <div className='home-dashboard-3-title'>State Wise</div>
                        {regional.map((item)=>{
                              return (
                                  <Items key={uuidv4()} data={item}/>
