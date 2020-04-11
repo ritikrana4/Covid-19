@@ -71,7 +71,22 @@ class TestCentersData extends React.Component{
    
 
     render(){
+        const customStyles = {
         
+            control: (base, state) => ({
+                ...base,
+                fontFamily: 'Poppins',
+                fontSize: 14,
+                borderRadius: 6,
+                
+             
+              }),
+              input: styles => ({
+                ...styles,
+                color: 'black',
+                fontFamily: 'Poppins',
+              }),
+          };
         
         const { selectedOption,data,isLoading,error } = this.state; 
         const filteredData = data.filter(elm=>elm.state.toLowerCase().includes(selectedOption.toLowerCase()));
@@ -92,7 +107,14 @@ class TestCentersData extends React.Component{
                             options={options}
                             isSearchable={true} 
                             placeholder={selectedOption}
-                         
+                            styles={customStyles}
+                            theme={theme => ({
+                                ...theme,
+                                colors: {
+                                    ...theme.colors,
+                                    neutral50: '#000000;',  // Placeholder color
+                                },
+                            })}
                          />
                 </div>
                

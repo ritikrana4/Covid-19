@@ -26,6 +26,24 @@ class Info extends React.Component {
       };
    
     render() {      
+
+      const customStyles = {
+        
+        control: (base, state) => ({
+            ...base,
+            fontFamily: 'Poppins',
+            fontSize: 14,
+            borderRadius: 6,
+            
+         
+          }),
+          input: styles => ({
+            ...styles,
+            color: 'black',
+            fontFamily: 'Poppins',
+          }),
+      };
+    
         const { selectedOption } = this.state;    
         let value = selectedOption.value;
         let tweets;
@@ -49,6 +67,16 @@ class Info extends React.Component {
                             options={options}
                             isSearchable={false} 
                             placeholder={"World Health Organization"}  
+                            styles={customStyles}
+                            theme={theme => ({
+                              ...theme,
+                              colors: {
+                                  ...theme.colors,
+                                  neutral50: '#000000;',  // Placeholder color
+                              },
+                          })}
+                            
+                      
                          />
             </div>
             <div>
