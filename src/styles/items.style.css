@@ -18,25 +18,23 @@
 }
 .item-data-1{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
     margin-left:23px;
-    margin-right: 67px;
-    margin-bottom: 11px;
+    margin-bottom: 18px;
 }
 .item-data-2{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left:23px;
+    flex-direction: column;
     margin-right: 67px;
     margin-bottom: 18px;
+
 }
 .item-data-heading{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 16 px;
     
     }
@@ -46,7 +44,9 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
+    margin-bottom: 11px;
 }
-
-
-   
+.item-data-grp{
+    display: flex;
+    justify-content: space-between;
+}
